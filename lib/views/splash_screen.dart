@@ -5,6 +5,17 @@ class SplashView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Container());
+    return Scaffold(
+        body: Container(
+      color: Colors.purple,
+      child: const Column(
+        children: [
+          Text(
+            "Splash Screen",
+            style: TextStyle(color: Colors.white),
+          )
+        ],
+      ),
+    ));
   }
 }
