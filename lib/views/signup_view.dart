@@ -1,4 +1,4 @@
-import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_provider_mvvm/core/components/app_button.dart';
 import 'package:flutter_provider_mvvm/core/components/app_text_field.dart';
@@ -23,7 +23,7 @@ class _SignupViewState extends State<SignupView> {
   final _formKey = GlobalKey<FormState>();
 @override
   void initState() {
-    // TODO: implement initState
+
     super.initState();
     getData();
   }
